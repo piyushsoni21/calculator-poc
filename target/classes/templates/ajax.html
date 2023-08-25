@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Calculator Poc</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" href="css/calc.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Calculator</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container" style="min-height: 500px">
+
+    <div class="starter-template">
+        <h1>Calculate Tax</h1>
+
+        <div id="feedback"></div>
+
+        <form class="form-horizontal" id="search-form">
+            <div class="form-group form-group-lg">
+                <label class="col-sm-4 control-label">Tax</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="tax"/>
+                </div>
+                 <label class="col-sm-4 control-label">Value</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="value"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Customer Id</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="custId"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Customer Name</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="custName"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Item Description </label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="itemDescription"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Item Code</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="productCode"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Invoice Date</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="invoiceDate"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Invoice Line Amount</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="invoiceLineAmount"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Customer address Line 1</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="addressLine"/>
+                </div>
+                
+                <label class="col-sm-4 control-label">Customer City</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="custCity"/>
+                </div>
+                
+                <label class="col-sm-4 control-label">Customer State</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="custState"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Customer Zip Code</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="custZipCode"/>
+                </div>
+                
+                 <label class="col-sm-4 control-label">Customer Country</label>
+                <div class="col-sm-5 value-field">
+                    <input type="text" class="form-control" id="custCountry"/>
+                </div> 
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-6 col-sm-10">
+                    <button type="submit" id="bth-search"
+                            class="btn btn-primary btn-lg">Calculate
+                    </button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+<div class="container">
+    <footer>
+        <p>
+             <a href="#">Uk Calculator</a> 
+        </p>
+    </footer>
+</div>
+
+<script type="text/javascript"
+        src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

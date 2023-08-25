@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: PIYUSH
+Build-Jdk: 16.0.2
+Implementation-Title: calculator-example
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.calculator
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/calculator-exa
+ mple/
+Created-By: Maven Integration for Eclipse
+
